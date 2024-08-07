@@ -1,0 +1,25 @@
+* {
+    font-family: "Monospace", "Helvetica", sans-serif;
+}
+
+body {
+    background: #4e4e4e;
+    padding: 150px 200px;
+    height: 100%;
+}
+
+h1, h2, p {
+    color: white;
+}
+
+.container-page {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.container-main {
+    border: 1px solid black;
+    height: 200px;
+}
+
