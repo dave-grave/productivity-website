@@ -5,11 +5,11 @@
 body {
     margin: 0;
     border: 0px;
-    padding: 150px 200px;
-    background: #4e4e4e;
-    box-sizing: border-box;
+    padding: 5% 10%;
     height: 100vh;
     width: 100vw;
+    box-sizing: border-box;
+    background: #4e4e4e;
 }
 
 h1, h2, p {
@@ -18,6 +18,7 @@ h1, h2, p {
 
 .container-main {
     height: 100%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,16 +26,28 @@ h1, h2, p {
 }
 
 header {
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 footer {
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 .container-info {
     border: 1px solid white;
-    flex-grow: 5;
+    /* flex-grow: 5; */
     height: 100%;
+    
+    display: flex;
+}
+
+aside {
+    box-sizing: border-box;
+    border: 1px solid yellow;
+    width: 72px;
+}
+
+.container-inside {
+    border: 1px solid black;
 }
 
