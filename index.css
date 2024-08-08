@@ -1,6 +1,20 @@
+/* general styles */
 * {
     font-family: "Monospace", "Helvetica", sans-serif;
 }
+
+h1, h2, p {
+    color: white;
+}
+
+.bi {
+    width: 32px;
+    height: 32px; 
+    fill: white;
+}
+
+
+/* website structuring and formatting */
 
 body {
     margin: 0;
@@ -12,13 +26,8 @@ body {
     background: #4e4e4e;
 }
 
-h1, h2, p {
-    color: white;
-}
-
 .container {
     height: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,7 +59,12 @@ footer {
 aside {
     box-sizing: border-box;
     border: 1px solid yellow;
-    width: 72px;
+    width: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
 }
 
 .container-content {
